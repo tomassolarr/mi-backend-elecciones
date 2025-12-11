@@ -1,0 +1,21 @@
+[
+  {"nombre": "Gonzalo Winter", "votos": 16.9},
+  {"nombre": "Francisco Orrego", "votos": 13.0},
+  {"nombre": "Irací Hassler", "votos": 9.7},
+  {"nombre": "Jorge Alessandri", "votos": 8.0},
+  {"nombre": "Franco Fritis", "votos": 6.3},
+  {"nombre": "José Antonio Kast", "votos": 6.2},
+  {"nombre": "Helia Molina", "votos": 5.9},
+  {"nombre": "Hans Marowski", "votos": 5.3},
+  {"nombre": "Emilia Schneider", "votos": 4.7},
+  {"nombre": "Matías Belliolio", "votos": 4.0},
+  {"nombre": "Alejandra Placencia", "votos": 3.9},
+  {"nombre": "Evelyn Hernández", "votos": 2.3},
+  {"nombre": "Johanna Olivares", "votos": 2.3},
+  {"nombre": "María Luisa Cordero", "votos": 2.2},
+  {"nombre": "Leticia Ahumada", "votos": 2.0},
+  {"nombre": "Karen Osorio", "votos": 1.9},
+  {"nombre": "María Jesús Schwerter", "votos": 1.8},
+  {"nombre": "José Toro Kemp", "votos": 1.8},
+  {"nombre": "Lorena Fríes", "votos": 1.8}
+]

@@ -1,0 +1,47 @@
+{
+  "escanos": {
+    "6001": 3, 
+    "6002": 3, 
+    "6003": 5, 
+    "6004": 5, 
+    "6005": 7,
+    "6006": 8, 
+    "6007": 8, 
+    "6008": 8, 
+    "6009": 7, 
+    "6010": 8,
+    "6011": 6, 
+    "6012": 7, 
+    "6013": 5, 
+    "6014": 6, 
+    "6015": 5,
+    "6016": 4, 
+    "6017": 7, 
+    "6018": 4, 
+    "6019": 5, 
+    "6020": 8,
+    "6021": 5, 
+    "6022": 4, 
+    "6023": 7, 
+    "6024": 5, 
+    "6025": 4,
+    "6026": 5, 
+    "6027": 3, 
+    "6028": 3
+  },
+  
+  "pactos_nombre": {
+    "A": "Partido Ecologista Verde",
+    "B": "Verdes, Regionalistas y Humanistas",
+    "C": "Unidad por Chile",
+    "D": "Izquierda Ecologista Popular Animalista y Humanista",
+    "E": "Amarillos por Chile",
+    "F": "Partido de Trabajadores Revolucionarios",
+    "G": "Alianza Verde Popular",
+    "H": "Partido Popular",
+    "I": "Partido de la Gente",
+    "J": "Chile Grande y Unido",
+    "K": "Cambio por Chile",
+    "X": "Independiente fuera de pacto"
+  }
+}
