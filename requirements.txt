@@ -1,13 +1,8 @@
 Flask==2.3.3
-flask-cors==4.0.0
-flask-jwt-extended==4.5.3
-gunicorn==21.2.0
-
-# Procesamiento de datos (VERSIONES COMPATIBLES CON PYTHON 3.9)
-pandas==1.5.3
-numpy==1.24.3
+Flask-CORS==4.0.0
+Flask-JWT-Extended==4.6.0
+pandas==2.1.4
+rapidfuzz==3.6.1
 requests==2.31.0
-rapidfuzz==3.5.2
-
-# Utilidades
-python-dateutil==2.8.2
+gunicorn==21.2.0
+python-dotenv==1.0.0

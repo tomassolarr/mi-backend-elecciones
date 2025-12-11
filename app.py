@@ -14,9 +14,33 @@ import xml.etree.ElementTree as ET
 import functools
 import time
 import os
+import logging
+from logging.handlers import RotatingFileHandler  # <-- Añade esto
 
 app = Flask(__name__, static_folder=None)
 app.config['JSON_AS_ASCII'] = False
+
+# ======== CONFIGURACIÓN DE LOGGING PARA PRODUCCIÓN ========
+# Agrega esto justo después de crear la app
+if not os.path.exists('logs'):
+    os.mkdir('logs')
+
+file_handler = RotatingFileHandler(
+    'logs/app.log', 
+    maxBytes=10240, 
+    backupCount=10
+)
+file_handler.setFormatter(logging.Formatter(
+    '%(asctime)s %(levelname)s: %(message)s [in %(pathname)s:%(lineno)d]'
+))
+file_handler.setLevel(logging.INFO)
+
+app.logger.addHandler(file_handler)
+app.logger.setLevel(logging.INFO)
+app.logger.info('Aplicación Flask iniciando...')
+# ======== FIN CONFIGURACIÓN LOGGING ========
+
+# Luego continúan las demás configuraciones
 app.config["JWT_SECRET_KEY"] = os.environ.get("JWT_SECRET_KEY", "clave_produccion_segura")
 app.config["JWT_ACCESS_TOKEN_EXPIRES"] = 3600
 jwt = JWTManager(app)
